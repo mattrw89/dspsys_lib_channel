@@ -15,7 +15,8 @@
 #include "common.h"
 
 
-typedef struct ChannelType {
+
+typedef struct Channel {
 	char name[17];
 	Active_enum active;
 	Io_enum io;

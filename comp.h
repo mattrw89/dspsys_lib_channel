@@ -22,8 +22,7 @@ typedef struct Comp {
 
 
 //Constructors
-void comp_ctor(Comp *comp, Enable_enum enable, float threshold, float ratio,
-               float attack, float release, float gain);
+void comp_ctor(Comp *comp, Enable_enum enable, float threshold, float ratio, float attack, float release, float gain);
 
 //Getters
 uint8_t comp_is_enabled(Comp *comp);
