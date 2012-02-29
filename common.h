@@ -8,7 +8,9 @@
 #ifndef COMMON_H_
 #define COMMON_H_
 
-#include <stdio.h>
+//#include <stdio.h>
+#define NUM_INPUT_CHANNELS 14
+#define NUM_OUTPUT_CHANNELS 14
 
 typedef enum Enable_enum {
 	DISABLED = 0,

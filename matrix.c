@@ -29,8 +29,8 @@ void matrix_set_input_channels(Matrix* matrix, Channel* start, uint8_t num_chann
     matrix->num_input_channels = num_channels;
     
     Channel* temp = start;
-    
-    for(uint8_t i=0; i < num_channels; i++) {
+    uint8_t i=0;
+    for( i=0; i < num_channels; i++) {
         matrix->channels_in[i] = temp;
         temp += sizeof(Channel*);
     }
@@ -42,7 +42,8 @@ void matrix_set_output_channels(Matrix* matrix, Channel* start, uint8_t num_chan
     matrix->num_output_channels = num_channels;
     
     Channel* temp = start;
-    for(uint8_t i=0; i < num_channels; i++) {
+    uint8_t i=0;
+    for( i=0; i < num_channels; i++) {
         matrix->channels_out[i] = temp;
         temp += sizeof(Channel*);
     }

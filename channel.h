@@ -9,11 +9,9 @@
 #define CHANNEL_H_
 #include <stdint.h>
 #include <string.h>
-#include "../dspsys_lib_txrxspi/APICommand.h"
+//#include "APICommand.h"
 #include "eq.h"
 #include "comp.h"
-#include "common.h"
-
 
 
 typedef struct Channel {
