@@ -45,4 +45,5 @@ void comp_set_gain(Comp *comp, float value);
 void comp_inspect(Comp *comp);
 
 
-#endif /* COMP_H_ */
+#endif 
+/* COMP_H_ */
