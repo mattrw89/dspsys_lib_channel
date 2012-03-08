@@ -8,6 +8,7 @@
 #ifndef EQ_H_
 #define EQ_H_
 #include <stdint.h>
+#include <stdio.h>
 #include <float.h>
 #include "common.h"
 

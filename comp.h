@@ -9,6 +9,7 @@
 #define COMP_H_
 #include <stdint.h>
 #include <float.h>
+#include <stdio.h>
 #include "common.h"
 
 typedef struct Comp {
